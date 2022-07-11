@@ -214,19 +214,21 @@
 
   <!-- **** Contact Section **** -->
   <section id="contact">
-    <div class="container" style="width: 480px">
-      <h2 class="section-title">Contact</h2>
-      <form action="https://formspree.io/xqkyrbrr" method="POST" style="text-align: left; font-size: 1.3rem;">
-        <label for="name" class='input-class'>Name</label>
-        <input type="text" name="name" id='name' /><br>
-        <label for="_replyto" class='input-class' style="margin-top: 10px">Email</label>
-        <input type="email" name="_replyto" id='email' /><br>
-        <label for="textarea" id="textarealabel">How may I
-          help you?</label>
-        <textarea name="body" id='textarea' rows="8" cols="50"></textarea><br>
-        <!-- <input type="submit" value="Submit" class='form-submit'/> -->
-        <button value="Submit" class='form-submit'>Submit</button>
-      </form>
+    <div class="container" style="max-width: 480px">
+      <div class="row">
+        <h2 class="section-title">Contact</h2>
+        <form action="https://formspree.io/xqkyrbrr" method="POST" style="text-align: left; font-size: 1.3rem;">
+          <label for="name" class='input-class'>Name</label>
+          <input type="text" name="name" id='name' /><br>
+          <label for="_replyto" class='input-class' style="margin-top: 10px">Email</label>
+          <input type="email" name="_replyto" id='email' /><br>
+          <label for="textarea" id="textarealabel">How may I
+            help you?</label>
+          <textarea name="body" style="width: 100%" rows="8" cols="50"></textarea><br>
+          <!-- <input type="submit" value="Submit" class='form-submit'/> -->
+          <button value="Submit" class='form-submit'>Submit</button>
+        </form>
+      </div>
       <!-- <div class="contact-wrapper load-hidden">
         <p class="contact-wrapper__text">[Put your call to action here]</p>
         <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="mailto:example@email.com">Call to
